@@ -1,0 +1,75 @@
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+  .red-text {
+    color: red;
+	font-family: Lobster;
+  }
+  
+  h2{
+ font-size: 32px;}
+ 
+  p {
+    font-size: 16px;
+    font-family: Lobster;
+  }
+
+  .thick-green-border {
+    border-color: green;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+
+  .smaller-image {
+    width: 150px;
+  }
+  .grey-background{
+  background-color:grey;
+  }
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+
+<p>Click here for <a href="https://www.google.ru/search?q=%D0%BA%D0%BE%D1%82%D1%8B&newwindow=1&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj9gdTO5arZAhWrsKQKHZthAPkQ_AUICigB&biw=1280&bih=918">cat photos</a>.</p>
+
+<a href="#"><img class="smaller-image thick-green-border" alt="A cute orange cat lying on its back. " src="https://sonnikpro.com/wp-content/uploads/2017/03/ryizhiy-kot1.jpg"></a>
+<div class="grey-background">
+<p class="red-text">Топ 3 вещей которые кошки любят делать:</p>
+<ol>
+  <li>Спать</li>
+  <li>Лазерные указки</li>
+  <li>Урчать</li>
+</ol>
+<p class="red-text">Топ 3 вещей которые кошки ненавидят:</p>
+<ol>
+  <li>Гром</li>
+  <li>Неповиновение</li>
+  
+  <li>
+  <a href="http://magspace.ru/uploads/2017/02/07/05-03624ac2f2-801a-4755-b289-e72638b86ef6.jpg">Усы</a>
+  </li>
+  
+<p></p>
+</ol>
+</div>
+
+<form action="/submit-cat-photo">
+  <label><input type="radio" name="indoor-outdoor">
+  Indoor</label>
+  <label><input type="radio" name="indoor-outdoor">
+  Outdoor</label>
+<p></p>
+  <label><input type="checkbox" name="personality">
+  Милашный</label>
+  <label><input type="checkbox" name="personality">
+  Играющий</label>
+  <label><input type="checkbox" name="personality">
+  Сонный</label>
+  <label><input type="checkbox" name="personality" checked>
+  Кошки мое Все!</label>
+<p></p>
+  <input type="text" placeholder="Cat photo URL" 
+  required>
+  <button type="submit">Загрузить фото</button>
+</form>
+
